@@ -20,7 +20,7 @@ for i in range(1, len(n)):
         n[idx] = n[idx-1]
         idx -= 1
     n[idx] = x
-print(n)
+# print(n)
 
 m = int, input('Введите любое число ')
 
