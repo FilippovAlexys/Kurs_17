@@ -6,7 +6,7 @@ def binary_search(n, m, start, stop):
         mid = (start + stop) // 2
         if m == n[mid]:
            return mid
-        elif m < n[mid]
+        elif m < n[mid]:
            return binary_search(n,m,start,mid - 1)
         else:
            return binary_search(n, m, mid + 1, stop)
